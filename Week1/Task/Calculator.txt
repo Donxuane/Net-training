@@ -1,0 +1,12 @@
+Implement simple calculator functionality with console interaction.
+
+Basic Functions of Calculator:
+Addition of two numbers.
+Difference between two numbers.
+Product of two numbers.
+Division of two numbers.
+Square root of two numbers.
+Power of two numbers.
+
+Extra:
+User should be able to do multiple calculations during one run.
