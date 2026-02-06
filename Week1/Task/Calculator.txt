@@ -3,7 +3,7 @@ Implement simple calculator functionality with console interaction.
 Basic Functions of Calculator:
 Addition of two numbers.
 Difference between two numbers.
-Product of two numbers.
+Product of two numbers.(Multiplication)
 Division of two numbers.
 Square root of two numbers.
 Power of two numbers.
