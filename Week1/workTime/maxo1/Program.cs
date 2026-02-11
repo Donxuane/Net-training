@@ -1,4 +1,11 @@
-﻿string nameSurname = "maxo mgeladze";
-int age = 28, height = 175;
-char symbols = 'T';
-Console.WriteLine($"name - {nameSurname}\n{age}\n{height}\n{symbols}");
+﻿string name = "Maxo";
+string Surname = "Mgeladze";
+int applyamount = 15;
+double risekilogram = 3.5;
+bool canYouLift50kg = true;
+Console.WriteLine($"{name}\n{Surname}\n{applyamount}\n{risekilogram}\n{canYouLift50kg}");
+
+
+
+
+    
