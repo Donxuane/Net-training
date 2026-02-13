@@ -12,7 +12,7 @@ while (true)
     {
         Console.WriteLine("invalide age");
     }
-     else if (age >= 0 && age <= 18)
+    else if (age >= 0 && age <= 18)
     {
         Console.WriteLine("You are minor");
     }
@@ -26,7 +26,7 @@ while (true)
         Console.WriteLine("you are senior");
 
     }
-    
+
 
 }
 

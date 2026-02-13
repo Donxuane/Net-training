@@ -21,7 +21,7 @@ while (true)
     else
     {
         Console.WriteLine("odd\n");
-        
+
     }
-    
+
 }

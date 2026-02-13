@@ -7,12 +7,12 @@
     string mathOperator = Console.ReadLine();
     Console.Write("second number: ");
     double secondNumber = Convert.ToInt32(Console.ReadLine());
-   
+
 
     if (mathOperator == "+")
     {
         Console.WriteLine(firstNumber + secondNumber);
-      
+
     }
     else if (mathOperator == "-")
     {
