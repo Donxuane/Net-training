@@ -366,5 +366,3 @@ FodyWeavers.xsd
 **/.idea/**
 
 #Ignore properties auto generated files
-**/Properties/AssemblyInfo.cs
-/Assignments/Week09-Advanced/giorgi_ubilava/LibraryManagementAdvanced/UsedQueries.sql
