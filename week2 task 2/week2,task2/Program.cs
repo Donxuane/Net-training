@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.Design;
-using System.Diagnostics;
-using System.Reflection.Metadata.Ecma335;
-using System.Runtime.InteropServices;
+﻿
 
 while (true)
 {
@@ -44,7 +41,7 @@ while (true)
     double secondNumber = Convert.ToDouble(Console.ReadLine());
     if (Operator == "/")
     {
-        Console.WriteLine($"{firstNumber} / {secondNumber} = {firstNumber} / {secondNumber}");
+        Console.WriteLine($"{firstNumber} / {secondNumber} = {firstNumber / secondNumber}");
     }
     Console.WriteLine("continiue execution? if so press S, and to close app press space");
     string appbreak = Console.ReadLine();
