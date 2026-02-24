@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeGap", "AgeGap\AgeGap.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Password", "Password\Password.csproj", "{D97BD253-1F3D-436B-8025-769EF467E896}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massive, for-foreach", "massive, for-foreach\massive, for-foreach.csproj", "{94115E6D-4FA5-4E5B-9BBC-705F78A1ED50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sum, min, max", "sum, min, max\sum, min, max.csproj", "{6129873D-7219-4F8F-82A4-6BC2D5DD7F9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D97BD253-1F3D-436B-8025-769EF467E896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D97BD253-1F3D-436B-8025-769EF467E896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D97BD253-1F3D-436B-8025-769EF467E896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94115E6D-4FA5-4E5B-9BBC-705F78A1ED50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94115E6D-4FA5-4E5B-9BBC-705F78A1ED50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94115E6D-4FA5-4E5B-9BBC-705F78A1ED50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94115E6D-4FA5-4E5B-9BBC-705F78A1ED50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6129873D-7219-4F8F-82A4-6BC2D5DD7F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6129873D-7219-4F8F-82A4-6BC2D5DD7F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6129873D-7219-4F8F-82A4-6BC2D5DD7F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6129873D-7219-4F8F-82A4-6BC2D5DD7F9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

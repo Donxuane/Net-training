@@ -17,10 +17,11 @@ else
 {
     Console.WriteLine("Wrong password");
     tries++;
+    
 } 
 if (tries == 3)
-    { Console.WriteLine("acces denied");
-        break;
-    }
+{ Console.WriteLine("access denied");
+    break;
+}
   
 }

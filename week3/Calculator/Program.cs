@@ -46,6 +46,13 @@ while (true)
     {
         break;
     }
+    else if (appbreak == " ")
 
+    {
+        continue;
 
+    } else 
+    {
+        break;
+    }
 }
