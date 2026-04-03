@@ -1,0 +1,122 @@
+Potion Brewing System (ელიქსირების სისტემა)
+
+შენი მიზანია შექმნა პატარა კონსოლის აპლიკაცია, სადაც მოთამაშე ამზადებს სხვადასხვა ტიპის ელიქსირებს (potions) და 
+ამ ელიქსირებს შეიძლება დაემატოს სხვადასხვა ინგრედიენტები, რომლებიც ცვლიან მათ თვისებებს.
+
+🧱 მოთხოვნები
+1. Potion (ძირითადი კლასი)
+
+შექმენი აბსტრაქტული კლასი, რომელიც წარმოადგენს ელიქსირს.
+
+ამ კლასს უნდა ჰქონდეს:
+
+სახელი (Name)
+საბაზისო ფასი (BaseCost)
+მეთოდი, რომელიც ასრულებს ეფექტს (ApplyEffect)
+2. სხვადასხვა ტიპის ელიქსირები (Inheritance)
+
+შექმენი რამდენიმე კონკრეტული ელიქსირი, რომლებიც მემკვიდრეობით იღებენ Potion კლასს:
+
+Health Potion → სიცოცხლის აღდგენა
+Mana Potion → მანის აღდგენა
+Strength Potion → ძალის გაზრდა
+
+თითოეულს უნდა ჰქონდეს:
+
+თავისი უნიკალური სახელი
+თავისი ეფექტი (მაგ. რამდენ HP-ს ან Mana-ს აღადგენს)
+საკუთარი ApplyEffect ლოგიკა
+3. Ingredient სისტემა (მეორე hierarchy)
+
+შექმენი კიდევ ერთი აბსტრაქტული კლასი — Ingredient.
+
+ამ კლასს უნდა ჰქონდეს:
+
+ფასი (Cost)
+მეთოდი, რომელიც ცვლის potion-ს (Modify)
+4. ინგრედიენტების ტიპები
+
+შექმენი რამდენიმე ინგრედიენტი:
+
+Red Mushroom → აძლიერებს healing effect-ს ეფექტს
+Blue Crystal → აძლიერებს mana-ს ეფექტს
+Dragon Scale → აძლიერებს effect-ს,
+მაგრამ ზრდის ფასსაც
+
+ინგრედიენტებმა უნდა შეძლონ potion-ის შეცვლა (მაგალითად, გაზარდონ მისი ეფექტი ან ფასი).
+
+5. Potion Builder (composition)
+
+შექმენი კლასი, რომელიც:
+
+იღებს კონკრეტულ potion-ს
+აძლევს საშუალებას დაამატო რამდენიმე ინგრედიენტი
+ითვლის საბოლოო ფასს
+ბოლოს “გამოიყენებს” potion-ს
+6. Console Interaction
+
+პროგრამაში მომხმარებელს უნდა შეეძლოს:
+
+აირჩიოს potion ტიპი
+დაამატოს ერთი ან მეტი ინგრედიენტი
+ნახოს:
+საბოლოო ეფექტი
+საბოლოო ფასი
+გამოიყენოს potion
+
+
+
+///////////
+====================================
+      🧙‍♂️ POTION BREWING LAB
+====================================
+
+Choose a potion to create:
+
+1. Health Potion
+2. Mana Potion
+3. Strength Potion
+
+> 1
+
+You selected: Health Potion ❤️
+
+------------------------------------
+Add ingredients (type number, 0 to finish):
+
+1. Red Mushroom (+healing)
+2. Blue Crystal (+mana)
+3. Dragon Scale (+power, +cost)
+
+> 1
+✔ Red Mushroom added!
+
+> 3
+✔ Dragon Scale added!
+
+> 0
+
+------------------------------------
+🧾 FINAL POTION DETAILS:
+
+Potion: Health Potion ❤️
+Effect: Heals 75 HP (boosted!)
+Ingredients:
+ - Red Mushroom
+ - Dragon Scale
+
+Total Cost: 45 gold
+
+------------------------------------
+Use potion? (y/n)
+
+> y
+
+✨ You feel refreshed! +75 HP restored!
+
+------------------------------------
+Do you want to create another potion? (y/n)
+
+> n
+
+👋 Goodbye, Alchemist!
