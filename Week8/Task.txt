@@ -16,7 +16,7 @@ Price
 
 🔹 OrderItems
 Id (PK)
-OrderId (FK → Orders)
+userId (FK → users)
 ProductId (FK → Products)
 Quantity
 Price 
