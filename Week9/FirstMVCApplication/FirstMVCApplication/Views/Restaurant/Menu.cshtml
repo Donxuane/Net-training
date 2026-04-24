@@ -1,0 +1,8 @@
+﻿@model List<Menu>
+
+@{
+    foreach(Menu menu in Model)
+    {
+        <h1 style="color:blue">საჭმლის სახელი - @menu.FoodName  ფასი - @menu.Price</h1>
+    }
+}
