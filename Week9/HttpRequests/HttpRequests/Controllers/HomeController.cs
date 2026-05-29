@@ -25,6 +25,8 @@ namespace HttpRequests.Controllers
         {
             string test = "dfdfd";
 
+            test te = new Service();
+
             var test1 = test.ExstetntionForString();
             return Ok(test1);
         }

@@ -1,0 +1,6 @@
+@FirstWebApIWithAuthorization_HostAddress = http://localhost:5264
+
+GET {{FirstWebApIWithAuthorization_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

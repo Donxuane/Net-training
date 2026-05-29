@@ -1,6 +1,6 @@
 ﻿namespace HttpRequests;
 
-public class Service
+public class Service :test
 {
     public async Task<string> GetResponse()
     {
